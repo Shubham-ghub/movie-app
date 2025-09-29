@@ -16,7 +16,6 @@ const SingleMovie = () => {
   
   useEffect(() => {
     dispatch(getSingleMovie(id));
-    console.log(id);
     
   }, [dispatch]);
 
