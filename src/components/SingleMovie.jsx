@@ -46,7 +46,7 @@ const SingleMovie = () => {
           <div className="md:w-2/3 p-6 space-y-4">
             <h1 className="text-3xl font-bold">{movie.Title}</h1>
             <p className="text-gray-400">
-              {movie.Year} • {movie.Runtime} • {movie.Genre}
+              {movie.Year}  • {movie.Genre}
             </p>
             <p className="italic text-gray-300">Directed by {movie.Director}</p>
             <p className="text-sm text-gray-300">Actors: {movie.Actors}</p>
